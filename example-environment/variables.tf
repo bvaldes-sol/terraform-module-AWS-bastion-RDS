@@ -1,0 +1,20 @@
+# Variables get their values from terraform tfvars file
+variable "region" {}
+variable "cidr_block" {}
+variable "project_name" {}
+variable "public_subnet_az1_cidr_block" {}
+variable "public_subnet_az2_cidr_block" {}
+variable "public_subnet_az3_cidr_block" {}
+variable "private_subnet_app_az1_cidr_block" {}
+variable "private_subnet_app_az2_cidr_block" {}
+variable "private_subnet_app_az3_cidr_block" {}
+variable "user_ip" {}
+variable "aws_ami" {}
+variable "instance_type" {}
+variable "key_pair" {}
+variable "allocated_storage" {}
+variable "instance_class" {}
+#variable "postgres_username" {}
+#variable "postgres_password" {}
+variable "availability_zone" {}
+variable "postgres_secrets" {}
