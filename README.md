@@ -1,4 +1,4 @@
-# Terraform Remote State Template
+# Terraform Module Bastion RDS
 ![Static Badge](https://img.shields.io/badge/Terraform-V1.8.0-%23844FBA?logo=terraform) ![Static Badge](https://img.shields.io/badge/AWS_CLI-V2.15.19-%23232F3E?logo=amazonaws)
 
 - Module formatted for multi environment IAC that deploys a private Postgres Database on AWS RDS, EC2 bastion host, and VPC. The modular project purpose is to be able to create bastions and private databases to add aditional layers of security and be used for testing.
